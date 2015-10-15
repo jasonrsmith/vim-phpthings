@@ -57,7 +57,7 @@ function get_composer_config($projectdir)
 function print_header($namespace, $classname)
 {
   if ($namespace)
-    echo "<?php namespace $namespace\n";
+    echo "<?php namespace $namespace;\n";
   else
     echo "<?php\n";
   echo <<<EOF
